@@ -8,7 +8,7 @@ class MainFirstScreen extends StatelessWidget {
     return Scaffold(
       body: LayoutBuilder(
           builder: (BuildContext context, BoxConstraints constraints) {
-        if (constraints.maxWidth >= 100) {
+        if (constraints.maxWidth >= 500) {
           return const FirstScreenWide();
         } else {
           return const FirstScreen();
