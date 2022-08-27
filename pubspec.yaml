@@ -1,0 +1,60 @@
+name: toma_bird_dicoding_project
+description: A new Flutter project for subsmission
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/bird.png
+
+  fonts:
+    - family: Bebas_Neue
+      fonts:
+        - asset: font/Bebas_Neue/BebasNeue-Regular.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: font/Poppins/Poppins-Regular.ttf
+        - asset: font/Poppins/Poppins-Bold.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: font/Poppins/Poppins-Bold.ttf
+
+    - family: GreatVibes
+      fonts:
+        - asset: font/Great_Vibes/GreatVibes-Regular.ttf
+
+    - family: Pacifico
+      fonts:
+          - asset: font/Pacifico/Pacifico-Regular.ttf
+
+    - family: Staatliches
+      fonts:
+          - asset: font/Staatliches/Staatliches-Regular.ttf
+
+    - family: Splash
+      fonts:
+          - asset: font/Splash/Splash-Regular.ttf
